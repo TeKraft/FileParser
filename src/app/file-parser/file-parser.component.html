@@ -1,0 +1,40 @@
+
+<br>
+<table>
+	<tr>
+		<td>Row</td>
+		<td><input type="number" min="0" [(ngModel)]="numberRow"/></td>
+	</tr>
+	<tr>
+		<td>Column</td>
+		<td><input type="number" min="0" [(ngModel)]="numberColumn"/></td>
+	</tr>
+</table>
+<!-- 
+Row: <input type="number" min="0" [(ngModel)]="numberRow"/>
+<br>
+Column: <input type="number" min="0" [(ngModel)]="numberColumn"/>
+<br> -->
+
+<div>
+	<input type="checkbox" id="selectedVal" name="selectedVal" [(ngModel)]="selectedValue">
+	<label for="selectedVal">Identify selected measurement value:
+		<br><ul>
+			<li>with provided vocabulary url (checked)</li>
+			<li>with predefined strings (not checked)</li>
+		</ul></label>
+</div>
+
+<br>
+
+<button [disabled]="!submitNumbersReady" (click)="submitNumbers()">Submit</button>
+
+<h3>Output:</h3>
+<!-- {{outputArray}} -->
+
+<table>
+	<tr *ngFor="let cells of outputArray;">
+	   <td>{{cells}}</td>
+	   <!-- <td *ngFor="let c of cells;">{{c}}</td> -->
+	</tr>
+</table>

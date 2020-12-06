@@ -1,0 +1,45 @@
+<ol>
+	<li>Select a dataset (".csv", ".txt", ".cnv") and a configuration file (".json").
+		<br>
+		After selecting both files, press "Run parsing".</li>
+	<li>Insert a row number and a column number, to request a measurement value.
+		<br>
+		Press "Submit" to retreive the output.</li>
+	<li>Change the numbers and press "Submit" to generate output for a new measurement value.</li>
+	<li>Upload new files to change the dataset and configuration file.
+		<br>
+		Press "Run parsing" again.</li>
+</ol>
+
+<!-- <button (click)="startFileReader()">Run File Reader</button> -->
+
+<!-- <input type="file" onChange="this.handleChange(e.target.files)"/> -->
+
+
+<!-- <input type="file" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)" accept=".csv" /> -->
+
+<h3>Select files</h3>
+
+<br>
+Data file : Ready? => {{dataReady}}
+<div class="form-group">
+	<input #inputDataset type="file" (change)="onDataFileSelect($event)" name="mydatafile">
+</div>
+<br>
+Config File : Ready? => {{configReady}}
+<div class="form-group">
+	<input #inputConfig type="file" (change)="onConfigFileSelect($event)" name="myconfigfile">
+</div>
+
+<br>
+
+<button [disabled]="! (dataReady && configReady)" (click)="beginParser()">Run parsing</button>
+
+<h3>Select measurement value</h3>
+
+selected cataset file:
+{{dataString ? dataString.title : ""}}
+<br>
+selected configuration file:
+{{configString ? configString.title : ""}}
+<br>
