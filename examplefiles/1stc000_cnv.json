@@ -1,0 +1,385 @@
+{
+	"file": {
+		"name": {
+			"literal": "1stc000.cnv"
+		}
+	},
+	"specialCharacters": {
+		"separator": "  "
+	},
+	"trim": [
+		{
+			"what": "Row",
+			"idx": 0
+		},
+		{
+			"what": "Literal",
+			"where": "Row",
+			"idx": 1,
+			"literal": "*"
+		},
+		{
+			"what": "Literal",
+			"where": "Row",
+			"idx": 2,
+			"literal": "*"
+		},
+		{
+			"what": "Row",
+			"literal": "*END*"
+		}
+	],
+	"metadata": [
+		{
+			"separator": "=",
+			"line": "Row",
+			"fixedPosition": true,
+			"keyvalue": true,
+			"identifier": {
+				"idx": {
+					"start": 0
+				}
+			},
+			"lines": [
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": "=",
+					"vocabulary": "vocab/number of bytes per scan",
+					"key": {
+						"block": {
+							"multipleLines": false
+						}
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": "=",
+					"vocabulary": "vocab/system upload time",
+					"key": {
+						"block": {
+							"multipleLines": false
+						}
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				}
+			],
+			"vocabularyTerms": []
+		},
+		{
+			"separator": ":",
+			"line": "Row",
+			"fixedPosition": true,
+			"keyvalue": true,
+			"identifier": {
+				"position": "First",
+				"connected": true,
+				"literal": "*",
+				"ignore": []
+			},
+			"lines": [],
+			"vocabularyTerms": []
+		},
+		{
+			"separator": "=",
+			"line": "Row",
+			"fixedPosition": true,
+			"keyvalue": true,
+			"identifier": {
+				"position": "First",
+				"connected": true,
+				"literal": "#",
+				"ignore": []
+			},
+			"lines": [
+				{
+					"fixedPosition": false,
+					"skip": false,
+					"separator": "=",
+					"vocabulary": "vocab/parameter/name",
+					"header": false,
+					"key": {
+						"block": {
+							"multipleLines": true,
+							"connected": true
+						},
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "name",
+										"type": "Literal"
+									},
+									{
+										"start": 0,
+										"link": "Column"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/parameter/abbreviation",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ":",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/parameter/name",
+										"type": "Vocabulary"
+									}
+								],
+								"optional": false
+							},
+							{
+								"structure": [
+									{
+										"string": ",",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/parameter/scale",
+										"type": "Vocabulary"
+									}
+								],
+								"optional": true
+							},
+							{
+								"structure": [
+									{
+										"string": "[",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/parameter/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "]",
+										"type": "Literal"
+									}
+								],
+								"optional": true
+							}
+						],
+						"format": {}
+					},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": [
+						{
+							"literal": "pressure",
+							"vocabulary": "vocab/parameter/name",
+							"vocabularyTerm": "vocab/pressure",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "temperature",
+							"vocabulary": "vocab/parameter/name",
+							"vocabularyTerm": "vocab/temperature"
+						},
+						{
+							"literal": "salinity",
+							"vocabulary": "vocab/parameter/name",
+							"vocabularyTerm": "vocab/salinity"
+						}
+					]
+				},
+				{
+					"fixedPosition": false,
+					"skip": false,
+					"separator": "=",
+					"vocabulary": "vocab/value/span",
+					"key": {
+						"block": {
+							"multipleLines": true,
+							"connected": true
+						},
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "span",
+										"type": "Literal"
+									},
+									{
+										"start": 0,
+										"link": "Column"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/value/span/min",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ",",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/value/span/max",
+										"type": "Vocabulary"
+									}
+								],
+								"optional": false
+							}
+						],
+						"format": {}
+					},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": false,
+					"skip": false,
+					"separator": "=",
+					"vocabulary": "vocab/measurement/interval",
+					"key": {
+						"block": {
+							"multipleLines": false,
+							"connected": false
+						},
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "interval",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/measurement/interval/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ":",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/measurement/interval/value",
+										"type": "Vocabulary"
+									}
+								],
+								"optional": false
+							}
+						],
+						"format": {}
+					},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": false,
+					"skip": false,
+					"separator": "=",
+					"vocabulary": "vocab/measurement/binavg_surface_bin",
+					"key": {
+						"block": {
+							"multipleLines": false,
+							"connected": false
+						},
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "binavg_surface_bin",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/measurement/binavg_surface_bin/boolean",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ", min =",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/measurement/binavg_surface_bin/minimum",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ", max =",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/measurement/binavg_surface_bin/maximum",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ", value =",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/measurement/binavg_surface_bin/value",
+										"type": "Vocabulary"
+									}
+								],
+								"optional": false
+							}
+						],
+						"format": {}
+					},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				}
+			],
+			"vocabularyTerms": []
+		}
+	],
+	"data": [],
+	"vocabularyTerms": [],
+	"category": [
+		{
+			"literal": "yes",
+			"vocabularyTerm": "vocab/category/yes",
+			"content": true
+		}
+	]
+}

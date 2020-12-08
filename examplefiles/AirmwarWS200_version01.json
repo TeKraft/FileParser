@@ -1,0 +1,319 @@
+{
+	"file": {
+		"name": {
+			"literal": "AirmarWS200.csv"
+		}
+	},
+	"specialCharacters": {
+		"separator": ","
+	},
+	"trim": [],
+	"metadata": [
+		{
+			"separator": ",",
+			"line": "Row",
+			"fixedPosition": true,
+			"keyvalue": false,
+			"identifier": {
+				"idx": {
+					"start": 0
+				}
+			},
+			"lines": [
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"header": true,
+					"firstField": {
+						"different": false
+					},
+					"value": {
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/phenomenon",
+										"type": "Vocabulary"
+									}
+								],
+								"optional": false
+							},
+							{
+								"structure": [
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": true
+							}
+						],
+						"format": {}
+					},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": [
+						{
+							"literal": "PLATFORM",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/PLATFORM",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "DATE",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/DATE",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "LATITUDE",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/LATITUDE/degree_north",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "LONGITUDE",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/LONGITUDE/degree_east",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "Source",
+							"vocabularyTerm": "vocab/Source",
+							"vocabulary": "vocab/phenomenon",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "Instrument_Name",
+							"vocabularyTerm": "vocab/Instrument_Name",
+							"vocabulary": "vocab/phenomenon",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "Sms",
+							"vocabularyTerm": "vocab/Sms",
+							"vocabulary": "vocab/phenomenon",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "Nbm",
+							"vocabularyTerm": "vocab/Nbm",
+							"vocabulary": "vocab/phenomenon",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "Channels",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Channels",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "hour",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/hour",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "latitude",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/latitude/degree_northsouth",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "longitude",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/longitude/degree_eastwest",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "quality_indicator",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/quality_indicator",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "satellite_number",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/satellite_number",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "hdop",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/hdop",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "altitude",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/altitude",
+							"data": {
+								"header": true,
+								"classification": [],
+								"category": [],
+								"format": {}
+							}
+						},
+						{
+							"literal": "air_pressure_at_sea_level",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/air_pressure_at_sea_level"
+						},
+						{
+							"literal": "air_temperature",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/air_temperature"
+						},
+						{
+							"literal": "relative_humidity",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/relative_humidity"
+						},
+						{
+							"literal": "wind_from_direction",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/wind_from_direction"
+						},
+						{
+							"literal": "mag_wind",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/mag_wind"
+						},
+						{
+							"literal": "knot_wind_speed",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/knot_wind_speed"
+						},
+						{
+							"literal": "wind_speed",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/wind_speed"
+						},
+						{
+							"literal": "pitch",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/pitch"
+						},
+						{
+							"literal": "roll",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/roll"
+						},
+						{
+							"literal": "wmo_wind_speed",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/wmo_wind_speed"
+						},
+						{
+							"literal": "wmo_wind_mag",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/wmo_wind_mag"
+						},
+						{
+							"literal": "wind_speed_of_gust",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/wind_speed_of_gust"
+						},
+						{
+							"literal": "wind_gust_from_direction",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/wind_gust_from_direction"
+						},
+						{
+							"literal": "QC",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/QC"
+						}
+					]
+				}
+			]
+		}
+	],
+	"data": [],
+	"vocabularyTerms": [],
+	"category": []
+}

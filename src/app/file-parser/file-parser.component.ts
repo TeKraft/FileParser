@@ -53,7 +53,7 @@ export class FileParserComponent implements OnInit {
 		// subscribe receives the value.
 		this.shareFileContent.fileContentAdded.subscribe((str) => {
 
-			console.log(str);
+			// console.log(str);
 
 			this.outputArray = [];
 			this.metadataGlobal = [];
@@ -302,7 +302,7 @@ export class FileParserComponent implements OnInit {
 									// adapt from resBlock to [resBlock, resBlock, resBlock, usw.]
 
 									let newBlock = [];
-									console.log(resBlocks);
+									// console.log(resBlocks);
 									resBlocks.forEach((resBlock, i) => {
 										resBlock.forEach((block, j) => {
 
@@ -377,11 +377,11 @@ export class FileParserComponent implements OnInit {
 
 		this.dataBlockSubmit = _.cloneDeep(checkDataBlock);
 
-		console.log(this.dataBlockSubmit);
-		// console.log(this.dataContent);
-		// console.log(checkDataBlock);
-		console.log(currMetadataObj);
-		console.log(this.metadataGlobal);
+		// console.log(this.dataBlockSubmit);
+		// // console.log(this.dataContent);
+		// // console.log(checkDataBlock);
+		// console.log(currMetadataObj);
+		// console.log(this.metadataGlobal);
 
 		console.log('finished identifying metadata and data block.');
 		this.processMetadataBlock(currMetadataObj);
@@ -467,8 +467,8 @@ export class FileParserComponent implements OnInit {
 						this.metadataGlobal = this.metadataGlobal.concat(currRes.global);
 
 
-						console.log(currRes);
-						console.log(this.metadataGlobal);
+						// console.log(currRes);
+						// console.log(this.metadataGlobal);
 					}
 
 
@@ -479,7 +479,7 @@ export class FileParserComponent implements OnInit {
 					// 	res = res.concat(this.separateEachLineBySeparator(identifiedStringLines, cfgEl)));
 					// }
 
-					console.log('not multipleLines in keyvalue obj');
+					// console.log('not multipleLines in keyvalue obj');
 				}
 			}
 
@@ -489,7 +489,7 @@ export class FileParserComponent implements OnInit {
 		} else {
 			if (cfgEl.keyvalue) {
 				//  separate each line by cfgEl.separator add to global info
-				console.log('keyvalue');
+				// console.log('keyvalue');
 				let currRes = this.separateEachLineBySeparator(block, cfgEl, -1);
 				this.metadataGlobal = this.metadataGlobal.concat(currRes.global);
 			}
@@ -501,7 +501,7 @@ export class FileParserComponent implements OnInit {
 			// resultBlock.forEach(str => {
 			// 	// check for vocab in each string
 			// });
-			console.log('restBlock');
+			// console.log('restBlock');
 
 		}
 
@@ -580,7 +580,7 @@ export class FileParserComponent implements OnInit {
 						if (elCfg['vocabularyTerms'].length > 0) {
 							
 							if (this.metadataRow[j].vocabularies.length > 0) {
-								console.log('already existing');
+								// console.log('already existing');
 							}
 							
 							// if (elCfg.phenomenon) {
@@ -810,10 +810,10 @@ export class FileParserComponent implements OnInit {
 
 
 		// console.log(this.metadataRow);
-		console.log(dataSplitted);
+		// console.log(dataSplitted);
 
-		console.log(this.numberRow);
-		console.log(this.numberColumn);
+		// console.log(this.numberRow);
+		// console.log(this.numberColumn);
 
 		let rowsHeaderTrue = metadatRowLocal.filter(el => el.header);
 		// let rowsHeaderFalse = this.metadataRow.filter(el => !el.header);
@@ -821,7 +821,7 @@ export class FileParserComponent implements OnInit {
 		let resultArray = [];
 		if (rowsHeaderTrue.length > 0) {
 			
-			console.log(' ################### rowsHeaderTrue.length > 0');
+			// console.log(' ################### rowsHeaderTrue.length > 0');
 
 			// for field values
 			let url = metadatRowLocal[this.numberColumn + rowsHeaderTrue.length].valueUrl;
@@ -876,11 +876,11 @@ export class FileParserComponent implements OnInit {
 		} else {
 			// for row values
 
-			console.log(' ################### row values');
+			// console.log(' ################### row values');
 
-			console.log(metadatRowLocal);
-			console.log(dataSplitted);
-			console.log(this.numberRow);
+			// console.log(metadatRowLocal);
+			// console.log(dataSplitted);
+			// console.log(this.numberRow);
 
 			// for (let i = 0; i < dataSplitted[this.numberRow].length; i++) {
 			for (let i = 0; i < metadatRowLocal.length; i++) {
@@ -1248,8 +1248,8 @@ export class FileParserComponent implements OnInit {
 
 
 	private separateEachLineBySeparator(block, cfgEl, line: number) {
-		console.log('separate each line by separator');
-		console.log(block);
+		// console.log('separate each line by separator');
+		// console.log(block);
 		// console.log(cfgEl);
 		// TODO: use vocabularies after splitting/before splitting 
 		let res = [];
@@ -1270,9 +1270,9 @@ export class FileParserComponent implements OnInit {
 					} else {
 						structuredKey = this.processValueStructureGroupKey(cfgEl.lines[line].key.structureGroup, splitted[0], cfgEl.lines[line]['vocabularyTerms'], cfgEl.vocabulary, false);
 						if (structuredKey[0]) {
-							console.log('undefined');
+							// console.log('undefined');
 						} else {
-							console.log('not undefined');
+							// console.log('not undefined');
 						}
 					}
 	

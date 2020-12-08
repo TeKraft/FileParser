@@ -99,7 +99,7 @@ export class TestFileReaderComponent implements OnInit {
 		// this.dataReady = false;
 		// this.configReady = false;
 
-		console.log(this.inputDataset);
+		// console.log(this.inputDataset);
 		this.inputDataset.nativeElement.value = "";
 		this.inputConfig.nativeElement.value = "";
 

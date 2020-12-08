@@ -1,0 +1,271 @@
+{
+	"file": {
+		"name": {
+			"literal": "dataexport_20201122T110108.csv"
+		}
+	},
+	"trim": [],
+	"specialCharacters": {
+		"separator": ","
+	},
+	"metadata": [
+		{
+			"separator": ",",
+			"line": "Row",
+			"fixedPosition": true,
+			"keyvalue": false,
+			"identifier": {
+				"idx": {
+					"start": 0
+				}
+			},
+			"lines": [
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/location/cityname",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"category": [],
+					"classification": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/location/coordinates/latitude",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/location/coordinates/longitude",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",", 
+					"vocabulary": "vocab/level/abovesealevel",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",", 
+					"vocabulary": "vocab/phenomenon",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": [
+						{
+							"literal": "Temperature",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/temperature"
+						},
+						{
+							"literal": "Relative Humidity",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/relative humidity"
+						},
+						{
+							"literal": "Mean Sea Level Pressure",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Mean Sea Level Pressure"
+						},
+						{
+							"literal": "Precipitation Total",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Precipitation Total"
+						},
+						{
+							"literal": "Snowfall Amount",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Snowfall Amount"
+						},
+						{
+							"literal": "Cloud Cover Total",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Cloud Cover Total"
+						},
+						{
+							"literal": "Shortwave Radiation",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Shortwave Radiation"
+						},
+						{
+							"literal": "Evapotranspiration",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Evapotranspiration"
+						},
+						{
+							"literal": "Wind Gust",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Wind Gust"
+						},
+						{
+							"literal": "Wind Speed",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Wind Speed"
+						},
+						{
+							"literal": "Wind Direction",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Wind Direction"
+						},
+						{
+							"literal": "Geopotential Height",
+							"vocabulary": "vocab/phenomenon",
+							"vocabularyTerm": "vocab/Geopotential Height"
+						}
+					]
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",", 
+					"vocabulary": "vocab/unit",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",", 
+					"vocabulary": "vocab/level",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",", 
+					"vocabulary": "vocab/resolution",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",", 
+					"vocabulary": "vocab/aggregation",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Row",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": true
+				}
+			]
+		}
+	],
+	"data": [
+		{
+			"separator": ",",
+			"line": "Column",
+			"fixedPosition": true,
+			"keyvalue": false,
+			"identifier": {},
+			"lines": [
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/timestamp",
+					"header": true,
+					"firstField": {
+						"different": false
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				}
+			]
+		}
+	],
+	"vocabularyTerms": [],
+	"category": []
+}

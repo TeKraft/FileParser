@@ -1,0 +1,1177 @@
+{
+	"file": {
+		"name": {
+			"literal": "AirmarWS200.csv"
+		}
+	},
+	"specialCharacters": {
+		"separator": ","
+	},
+	"trim": [],
+	"metadata": [],
+	"data": [
+		{
+			"separator": ",",
+			"line": "Column",
+			"fixedPosition": true,
+			"keyvalue": false,
+			"identifier": {
+				"idx": {
+					"start": 0
+				}
+			},
+			"lines": [
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/PLATFORM",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": []
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/datetime",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/date/term",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/datetime/format",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/LATITUDE",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/LONGITUDE",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/Source",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/Instrument_Name",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/Sms",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/Nbm",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/Channels",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/hour",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/latitude",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/longitude",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/quality_indicator",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/satellite_number",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/hdop",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/altitude",
+					"header": true,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/air_pressure_at_sea_level",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/air_temperature",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/relative_humidity",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/wind_from_direction",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/mag_wind",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/knot_wind_speed",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/wind_speed",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/pitch",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/roll",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/wmo_wind_speed",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/wmo_wind_mag",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/wind_speed_of_gust",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/wind_gust_from_direction",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				},
+				{
+					"fixedPosition": true,
+					"skip": false,
+					"separator": ",",
+					"vocabulary": "vocab/QC",
+					"header": false,
+					"firstField": {
+						"different": true,
+						"title": true,
+						"titleScope": "Column",
+						"structureGroup": [
+							{
+								"structure": [
+									{
+										"string": "vocab/name",
+										"type": "Vocabulary"
+									},
+									{
+										"string": "(",
+										"type": "Literal"
+									},
+									{
+										"string": "vocab/unit",
+										"type": "Vocabulary"
+									},
+									{
+										"string": ")",
+										"type": "Literal"
+									}
+								],
+								"optional": false
+							}
+						]
+					},
+					"value": {},
+					"classification": [],
+					"category": [],
+					"vocabularyTerms": []
+				}
+			]
+		}
+	],
+	"vocabularyTerms": [],
+	"category": []
+}

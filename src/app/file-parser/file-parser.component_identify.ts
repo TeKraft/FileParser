@@ -33,8 +33,8 @@ export class FileParserComponent implements OnInit {
 			1: CFG -> title: title | string: content
 			*/
 
-			console.log(str[0]);
-			console.log(str[1]);
+			// console.log(str[0]);
+			// console.log(str[1]);
 
 			this.dataString = str[0].string;
 			this.cfgtring = str[1].string;
@@ -208,7 +208,7 @@ export class FileParserComponent implements OnInit {
 		let diff = this.findStreakDifference(blockBool, 'true');
 		
 		// console.log(streak); // # HINT: info for parser / start block data
-		console.log(diff); // # HINT: info for parser / start block data
+		// console.log(diff); // # HINT: info for parser / start block data
 
 		this.block1 = columns.slice(0, diff.start);
 		this.block2 = columns.slice(diff.start);
@@ -256,10 +256,10 @@ export class FileParserComponent implements OnInit {
 		}
 
 		if (this.selectedRowHeader.exists) {
-			console.log('first col = datetime');
-			console.log('row ' + this.selectedRowHeader.idx + ' could be header row'); // to check: if field in rows exists with parameter etc.
+			// console.log('first col = datetime');
+			// console.log('row ' + this.selectedRowHeader.idx + ' could be header row'); // to check: if field in rows exists with parameter etc.
 		} else {
-			console.log('no indication via header for datetime first col');
+			// console.log('no indication via header for datetime first col');
 
 			this.selectedRowHeader.exists = true;
 
@@ -271,7 +271,7 @@ export class FileParserComponent implements OnInit {
 			}
 
 			if (this.selectedRowHeader.exists) {
-				console.log('valid, because first row has valid date');
+				// console.log('valid, because first row has valid date');
 			}
 
 		}
@@ -297,20 +297,20 @@ export class FileParserComponent implements OnInit {
 
 
 	public submitNumbers() {
-		console.log(this.numberRow);
-		console.log(this.numberColumn);
+		// console.log(this.numberRow);
+		// console.log(this.numberColumn);
 
 		let resultArray = [];
 
-		console.log(this.block1);
-		console.log(this.block2);
+		// console.log(this.block1);
+		// console.log(this.block2);
 
 		if (this.block1 && this.block2) {
 			if (this.selectedRowHeader.exists) {
 				if (this.block2[this.numberRow] && this.block2[this.numberRow][this.numberColumn]) {
 					
 					
-					console.log(this.selectedRowHeader);
+					// console.log(this.selectedRowHeader);
 					// TODO: later
 					// 1. use selected row header as title instead of value and date
 					// 2. stay with method, filter first value
@@ -339,7 +339,7 @@ export class FileParserComponent implements OnInit {
 			}
 
 
-			console.log('array');
+			console.log('result');
 			console.log(resultArray);
 
 		} else {
