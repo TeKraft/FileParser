@@ -114,7 +114,7 @@
 					"firstField": {
 						"different": true,
 						"title": true,
-						"titleScope": "row",
+						"titleScope": "Row",
 						"structureGroup": []
 					},
 					"value": {},
